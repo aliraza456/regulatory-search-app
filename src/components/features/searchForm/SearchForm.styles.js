@@ -15,6 +15,7 @@ export const SearchFormContainer = styled.div`
   @media (max-width: 1024px) {
     flex-direction: column;
     align-items: center; 
+    
   }
 
   @media (max-width: 768px) {
@@ -35,6 +36,11 @@ export const SearchInput = styled.input`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: ${interFontFamily};
 
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center; 
+    width: 70%;
+  }
   @media (max-width: 480px) {
     padding: 12px;
     font-size: 14px;
