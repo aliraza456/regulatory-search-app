@@ -1,5 +1,6 @@
 import styled from "styled-components";
 const interFontFamily = "'Inter', sans-serif";
+
 export const FilterBar = styled.div`
   display: flex;
   gap: 5px;
@@ -7,6 +8,7 @@ export const FilterBar = styled.div`
   max-width: 900px;
   margin-bottom: 5px;
   justify-content: space-between;
+  
 
    {
     select,
@@ -22,11 +24,11 @@ export const FilterBar = styled.div`
   }
 
   select {
-    width: 30%; // Adjusting select to be more compact like in the image
+    width: 30%;
   }
 
   input[type="date"] {
-    width: 20%;
+    width: 30%;
   }
 
   .clear-filters {
@@ -38,6 +40,28 @@ export const FilterBar = styled.div`
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1080px) {
+    flex-direction: column; 
+    align-items: center;
+    select,
+    input[type="date"] {
+      width: 70%;
+    }
+  }
+    @media (max-width: 768px) {
+    flex-direction: column; 
+    select,
+    input[type="date"] {
+      width: 40%;
+    }
+
+    .clear-filters {
+      width: 50%; 
+      text-align: center; 
     }
   }
 `;

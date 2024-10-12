@@ -13,13 +13,13 @@ import {
   FooterCopyright,
   FooterSocialIcon,
 } from './Footer.styles'; 
-import logo from '../../../../icons/Vector.png'; 
-import facebookIcon from '../../../../icons/facebook.svg';
-import twitterIcon from '../../../../icons/twitter.svg';
-import instagramIcon from '../../../../icons/instagram.svg';
-import youtubeIcon from '../../../../icons/youtube.svg';
-import linkedinIcon from '../../../../icons/linkedin.svg';
-import tiktokIcon from '../../../../icons/tiktok.svg'
+import logo from '../../../icons/Vector.png'; 
+import facebookIcon from '../../../icons/facebook.svg';
+import twitterIcon from '../../../icons/twitter.svg';
+import instagramIcon from '../../../icons/instagram.svg';
+import youtubeIcon from '../../../icons/youtube.svg';
+import linkedinIcon from '../../../icons/linkedin.svg';
+import tiktokIcon from '../../../icons/tiktok.svg'
 
 const Footer = () => {
   return (

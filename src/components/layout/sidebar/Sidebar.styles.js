@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const SidebarContainer = styled.div`
   position: fixed;
@@ -14,13 +13,13 @@ export const SidebarContainer = styled.div`
 `;
 // Sidebar Logo
 export const SidebarLogo = styled.div`
-  margin-bottom: 90px; 
+  margin-bottom: 90px;
   img {
     width: 32px;
-    height: 32px; 
+    height: 32px;
   }
 `;
-// Sidebar items (links/icons)
+// Sidebar items
 export const SidebarItem = styled.a`
   margin: 3px 0;
   text-decoration: none;
@@ -28,9 +27,6 @@ export const SidebarItem = styled.a`
   justify-content: center;
   padding: 10px;
   cursor: pointer;
-
-
-
 
   img {
     width: 32px;

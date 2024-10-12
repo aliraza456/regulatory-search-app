@@ -8,6 +8,18 @@ export const ResultsHeaderContainer = styled.div`
   width: 100%;
   max-width: 900px;
   margin: 30px;
+
+  @media (max-width: 1024px) {
+    margin: 30px; 
+    flex-direction: row; 
+    justify-content: space-around; 
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column; 
+    align-items: center; 
+    margin: 40px 20px;
+  }
 `;
 
 export const SortingControls = styled.div`
@@ -20,5 +32,20 @@ export const SortingControls = styled.div`
     border: 1px solid #ccc;
     font-size: 16px;
     background-color: white;
+  }
+
+  @media (max-width: 1024px) {
+    gap: 3px; 
+  }
+
+  @media (max-width: 768px) {
+    width: 40%;
+    flex-direction: column; 
+    align-items:center; 
+    
+    select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
   }
 `;

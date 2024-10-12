@@ -1,13 +1,13 @@
 import React from "react";
 import { SidebarContainer, SidebarLogo, SidebarItem } from "./Sidebar.styles";
-import homeIcon from "../../../../icons/Home.png";
-import searchIcon from "../../../../icons/Search.png";
-import settingsIcon from "../../../../icons/Settings.png";
-import suitcaseIcon from "../../../../icons/Suitcase.png";
-import frameIcon from "../../../../icons/Frame.png";
-import fileIcon from "../../../../icons/File.png";
-import contactIcon from "../../../../icons/Contact.png";
-import vectorIcon from "../../../../icons/Vector.png";
+import homeIcon from "../../../icons/Home.png";
+import searchIcon from "../../../icons/Search.png";
+import settingsIcon from "../../../icons/Settings.png";
+import suitcaseIcon from "../../../icons/Suitcase.png";
+import frameIcon from "../../../icons/Frame.png";
+import fileIcon from "../../../icons/File.png";
+import contactIcon from "../../../icons/Contact.png";
+import vectorIcon from "../../../icons/Vector.png";
 
 const Sidebar = () => {
   return (

@@ -49,12 +49,12 @@ const Filters = ({
             </option>
           ))}
         </select>
-        
-          {/* Date Filter */}
+
+        {/* Date Filter */}
         <input type="date" value={selectedDate} onChange={handleDateChange} />
       </FilterBar>
 
-      {/* Conditionally show the "Clear Filters" button */}
+      {/*"Clear Filters" */}
       {areFiltersApplied && (
         <div style={{ marginTop: "10px" }}>
           <button
