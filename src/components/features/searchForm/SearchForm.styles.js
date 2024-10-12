@@ -10,18 +10,16 @@ export const SearchFormContainer = styled.div`
   margin-bottom: 40px;
   margin-left: auto;  
   margin-right: auto; 
-  z-index: -1; 
+  z-index: 1;  /* Removed negative z-index */
+
   @media (max-width: 1024px) {
     flex-direction: column;
-   align-items: center; 
-   input[type="text"] {
-      width: 70%;
-    }
+    align-items: center; 
   }
 
   @media (max-width: 768px) {
     flex-direction: column;
-    width:70%;
+    width: 70%;
   }
 `;
 
@@ -40,7 +38,7 @@ export const SearchInput = styled.input`
   @media (max-width: 480px) {
     padding: 12px;
     font-size: 14px;
-    width:70%;
+    width: 70%;
   }
 `;
 
@@ -55,16 +53,11 @@ export const SearchButton = styled.button`
   font-size: 16px;
   font-family: ${interFontFamily};
 
-  &:disabled {
-    background-color: #26c281;
-    cursor: not-allowed;
-  }
-
   @media (max-width: 768px) {
-    width: 100%; 
+    width: 100%;
     padding: 12px;
     font-size: 16px;
-    width:70%;
+    width: 70%;
   }
 
   @media (max-width: 480px) {
